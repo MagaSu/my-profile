@@ -4,29 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <!-- Google Fonts - Titilium Web -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
+    
+    <!-- CSS Styles -->
     <link rel="stylesheet" href="styles.css">
     <title>Maga</title>
 </head>
 <body>
-    <header class="main">
-        <h1 class="name">Magomed Suleimanov</h1>
-        <i class="quote">"I do see the beauty in the rules, the invisible code of chaos hiding behind the menacing face of order.</i>
-        <img class="main-img" src="photo.jpg" alt="Profile photo">
+    <header class="section main">
+        <div class="main-text">
+            <h1 class="title">Magomed Suleimanov</h1>
+            <div class="quote-block">
+                <i class="text">"I do see the beauty in the rules, the invisible code of chaos hiding behind the menacing face of order." </br>©MR.Robot</i>
+            </div>
+            <div class="info">
+                <h2 class="title">About me:</h2>
+                <div class="text-block">
+                    <p class="text">
+                        I'm from Chechnya, I moved to Belgium with my parents in 2003, 
+                        when I was 2 years old. And now, 
+                        this information is enough to know at least a 
+                        little about the silent guy in black clothes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img class="profile-img img" src="images/photo.png" alt="Profile photo">
     </header>
 
-    <div class="couch">
-        <h2 class="couch-title">My couch:</h2>
-        <img class="couch-img" src="couch.jpg" alt="Couch photo">
-        <h3 class="couch-info">Coming soon...</h2>
+     <div class="section-two">
+        <img class="img" src="images/jiraiya.png" alt="Jiraiya's photo">
     </div>
 
-    <div class="info-table">
-        <h2 class="info-title">About me:</h3>
+    <div class="section info-table">
         <table>
-            <tr><th>Birtday</th><th>Gender</th><th>Favorite color</th><th>Favorite food</th><th>Pineapple on pizza</th></tr>
+            <tr>
+                <th>Birtday</th>
+                <th>Gender</th>
+                <th>Favorite color</th>
+                <th>Favorite food</th>
+                <th>Pineapple on pizza</th>
+            </tr>
+            <tr>
+                <td>3 July 2001</td>
+                <td>Man</td>
+                <td>Black</td>
+                <td>Everything won't fit here.</td>
+                <td>I don’t know, I’ve never eaten.</td>
+            </tr>            
         </table>
     </div>
-
+<!--
     <div class="hobby">
         <h2 class="hobbies-title">My hobbies:</h3>
         
@@ -92,6 +128,6 @@
         <button class="btn">Previous</button>
         <h3 class="btn-name">Magomed</h3>
         <button class="btn">Next</button>
-    </div>
+    </div> -->
 </body>
 </html>
