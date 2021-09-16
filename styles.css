@@ -140,6 +140,18 @@ th:last-child, td:last-child {
     max-width: 70%;
 }
 
+/* Fun story */
+.fun-content {
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fun-text p {
+    font-style: italic;
+}
+
 /* Last section */
 
 .last-section {
