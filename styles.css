@@ -13,7 +13,12 @@ table {
     border: 1px solid #c0c0c0;
     width: 100%;
 }
-th, td {
+th {
+    padding: 1% 1%;
+    border-right: 1px solid #c0c0c0;
+}
+td {
+    text-align: center;
     padding: 1% 1%;
     border-right: 1px solid #c0c0c0;
 }
@@ -26,6 +31,7 @@ th:last-child, td:last-child {
 
 .section {
     margin: 50px auto;
+    padding: 1%;
     width: 100%;
     max-width: 800px;
     background: url('images/bg-trianglify.png'), #F5EFED;
@@ -81,4 +87,106 @@ th:last-child, td:last-child {
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
+}
+
+/* Hobby section */
+.hobby-section {
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+.hobbies-title {
+    text-align: center;
+}
+.hobby-title {
+    margin: 1% 0 5% 0;
+    font-weight: 400;
+    color: #0F0A0A;
+}
+.hobby-block {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    font-size: 24px;
+    margin: 2% 0 2% 0;
+    list-style: none;
+}
+.sublist {
+    font-size: 12px;
+    text-align: start;
+    list-style: none;
+    padding: 1%;
+}
+
+/* Help section */
+.help {
+    display: block;
+    text-align: center;
+}
+.help h2 {
+    margin: 1% 0 2% 0;
+}
+.help-title {
+    width: 100%;
+    max-width: 30%;
+}
+.help-text {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 70%;
+}
+
+/* Last section */
+
+.last-section {
+    width: 100%;
+    max-width: 425px;
+    margin: 0 auto;
+}
+.bye-gif {
+    margin: 8% 0;
+    border-radius: 5%;
+}
+
+/* Bottom */
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: max-content;
+    margin: 0 auto 2%;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.btn-title {
+    font-weight: 300;
+    color: #edf2f4;
+    margin: 3% 1%;
+    background-color: #0F0A0A;
+}
+.btn {
+    padding: 3%;
+    background-color: #edf2f4;
+    color: #000;
+    font-weight: 300;
+    width: 100px;
+}
+.btn:hover {
+    background-color: #000;
+    color: #edf2f4;
+    border: 1px solid #edf2f4;
+}
+.btn-prev {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.btn-next {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
